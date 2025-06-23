@@ -73,9 +73,9 @@ class DeepSeekPage extends StatelessWidget {
                     }
                     ;
                     //Scoll ajoutée avec Succès
-                    /*scrollController.jumpTo(
+                    scrollController.jumpTo(
                         scrollController.position.maxScrollExtent + 200);
-                    */
+
                     // Affichage normal des messages
                     final message = messages[index];
                     bool isUser = message.type == 'user';
