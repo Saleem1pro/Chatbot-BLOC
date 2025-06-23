@@ -1,16 +1,26 @@
-# chatbot_app_bloc
+# deepseek_chatbot_app
 
-chatbot App made using the Design pattern BLOC
+Chatbot App builded, based on AI LLM and the Design Pattern Bloc
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# Page d'accueil
+![Voir l'image](pics/accueil.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Page du Initial State
+![Voir l'image](pics/Initial_State.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Premier Pending State
+![Voir l'image](pics/Pending_State.png)
+
+# Pending State Changed
+![Voir l'image](pics/Pending_Changed.png)
+
+# Error State
+![Voir l'image](pics/Error_State.png)
+
+
+Objectif :
+
+Développer une application mobile qui respecte la séparation de la logique UI et la logique applicative en utilisant BLOC Pattern comme solution de state management.
